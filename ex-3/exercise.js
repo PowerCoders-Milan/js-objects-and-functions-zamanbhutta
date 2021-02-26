@@ -5,24 +5,24 @@
 
 myChoices = ["color", "primeMinister", "sport"]
 
-color = {
+var color = {
     name : "Black",
     type : "Prime",
 }
 
-primeMinister = {
+var primeMinister = {
    name : "Imran Khan",
    type : "Tahreekh Insaaf"
 }
 
-sport = {
+ var sport = {
     name : "Cricket",
     type : "played with bat and ball"
 }
 
-window.alert(color.name+ ".")
-window.alert(primeMinister.type+ ".")
-window.alert(sport.name+ ".")
+window.alert("My favourite color is " + color.name + " and type is " + color.type + " . ")
+window.alert("My favourite prime minister is " + primeMinister.name + " and type is " + primeMinister.type + " . ")
+window.alert("My favouritr sport is " + sport.name + " and type is  " + sport.type + " . ")
 
 
 
